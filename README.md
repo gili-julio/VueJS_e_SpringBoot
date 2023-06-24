@@ -1,3 +1,10 @@
+<p>
+  <img src="https://img.shields.io/badge/Vue-3.2.13-light_green">
+  <img src="https://img.shields.io/badge/Java-17-orange">
+  <img src="https://img.shields.io/badge/Spring_Boot-3.1.1-green">
+  <img src="https://img.shields.io/badge/Maven-4.0.0-red">
+</p>
+
 # VueJS_e_SpringBoot
 ## Descrição
 
