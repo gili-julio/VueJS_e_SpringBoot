@@ -4,11 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.giliardo.springboot.entity.Employee;
 import com.giliardo.springboot.repository.EmployeeRepository;
 
 @SpringBootApplication
+@CrossOrigin(origins = "http://localhost:8081")
 public class SpringbootBackendApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
